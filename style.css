@@ -2,12 +2,12 @@
 
 
 .profile {
-    text-align: center; /* centers image container */
+    text-align: center; /* centers image  */
     margin-top: 2px;  
 }
 
 .profile img {
-    width: 150px; /* Optional: Adjusts the image size */
+    width: 150px; /*  Adjusts  image size */
     height: 150px;
     border-radius: 50%;
 }
@@ -67,7 +67,7 @@ span{
     margin-bottom: 20px;
 }
 
-/* Hide sections initially */
+/* Hide sections  */
 #educationSection, #skillsSection, #experienceSection {
     display: none;
 }
