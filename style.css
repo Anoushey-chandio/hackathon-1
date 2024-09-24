@@ -33,7 +33,7 @@
         padding: 12px;
       
         margin: 10px;
-       height: 158px;
+       height: 200px;
         border: none;
         outline: none;
         justify-content: center;
@@ -140,7 +140,7 @@ h3 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
