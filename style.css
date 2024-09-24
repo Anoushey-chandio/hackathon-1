@@ -1,0 +1,201 @@
+
+.profile {
+    text-align: center; /* centers image container */
+    margin-top: 2px;  
+}
+
+.profile img {
+    width: 150px; /* Optional: Adjusts the image size */
+    height: 150px;
+    border-radius: 50%;
+}
+
+.info{
+    padding: 15px;
+    margin: 10px;
+   height: 250px;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+    box-shadow: inset -3px 3px rgba(0, 0, 0, 0.5);
+    color:#ece9e9;
+    font-weight: bold;
+    font-size: 1rem;
+    }
+    #p-i{
+        color: #439131;
+    }
+    .obj{
+        padding: 12px;
+      
+        margin: 10px;
+       height: 158px;
+        border: none;
+        outline: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 8px;
+        background-color: black;
+        box-shadow: inset -3px 3px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+      font-size: large;
+        }  
+span{
+    color: #439131;
+    font-size: 24px;
+}
+
+
+#myDiv {
+    display: none; /* Initially hidden */
+    width: 300px;
+    height: 250px;
+    background-color: lightblue;
+    margin-top: 10px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Hide sections initially */
+#educationSection, #skillsSection, #experienceSection {
+    display: none;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #0c0e0c;
+    color:white;
+    font-size: 18px;
+}
+.edu{
+    background-color: #0c0e0c;
+    color: #ece9e9;
+    padding: 10px;
+    font-size: large;
+}
+.skills{
+    background-color: #0c0e0c;
+    color: #ece9e9;
+    padding: 10px;
+    font-size: large;
+}
+.exp{
+    background-color: #0c0e0c;
+    color: #ece9e9;
+    padding: 10px;
+    font-size: large;
+}
+.linkedin{
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f3f6fa;
+    color: #000;;
+    border: none;
+    font-weight: bold;
+}
+.github{
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f3f6fa;
+    color: #000;;
+    border: none;
+    font-weight:bold; 
+}
+
+
+
+
+
+
+/* text */
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center; /*  centers */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+
+/* Desktop */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        max-width: 800px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .container {
+        max-width: 600px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+}
